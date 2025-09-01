@@ -1,4 +1,4 @@
-const palavras = ['python', 'programacao', 'energia', 'tecnologia', 'sol', 'painel', 'bateria', 'luz'];
+const palavras = ['economia', 'beneficio', 'energia', 'tecnologia', 'sol', 'painel', 'bateria', 'luz', 'solar', 'consumo'];
 let palavra = palavras[Math.floor(Math.random() * palavras.length)];
 let letrasDescobertas = Array(palavra.length).fill('_');
 let letrasErradas = [];
