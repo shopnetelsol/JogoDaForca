@@ -1,4 +1,4 @@
-const palavras = ['geracão propria','economia', 'beneficio', 'energia', 'tecnologia', 'sol', 'painel', 'bateria', 'luz', 'solar', 'consumo'];
+const palavras = ['inversor', 'string','geracao','economia', 'autonomia','beneficio', 'energia', 'tecnologia', 'sol', 'painel', 'bateria', 'luz', 'solar', 'consumo'];
 let palavra = palavras[Math.floor(Math.random() * palavras.length)];
 let letrasDescobertas = Array(palavra.length).fill('_');
 let letrasErradas = [];
